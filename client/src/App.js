@@ -23,7 +23,7 @@ render() {
   return (
     <div className="App">
       <Navbar />
-      <div className="player-card">
+      <div>
         {this.state.player.map(item => (
           <PlayerCard key={item.id} name={item.name} country={item.country} />
         ))}

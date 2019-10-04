@@ -23,6 +23,14 @@
   color: #61dafb;
 }
 
+.heading {
+  margin-left: 10px;
+}
+
+.player-card {
+  border: 1px solid black;
+}
+
 .navbar {
   align-items: center;
   border-bottom: 1px solid black;
@@ -32,7 +40,7 @@
   width: 100%;
 }
 
-.dark-mode__toggle {
+.dark-mode-toggle {
   background: lemonchiffon;
   border-radius: 10%;
   border: 2px solid black;
